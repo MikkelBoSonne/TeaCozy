@@ -1,0 +1,142 @@
+body {
+background-color: black;
+font-family: 'helvetica';
+font-size: 22px;
+margin: 0;
+font-weight: bold;
+}
+
+/* header style */
+header {
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  z-index: 1;
+}
+
+header .header-container {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  text-decoration: underline;
+}
+
+a {
+  padding: 20px;
+  color: seashell;
+}
+
+.header-container2 {
+  display: flex;
+  justify-content: center;
+}
+
+header img {
+  height: 50px;
+  margin: 10px;
+}
+
+/* hero style */
+hero {
+  height: 700px;
+  color: white;
+}
+
+.hero-image {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  height: 100px;
+  width: 100%;
+  position: relative;
+  top: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content, h2 {
+  display: flex;
+}
+
+/* section style */
+
+section {
+  color: seashell;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+section img {
+
+  width: 300px;
+  height: 200px;
+}
+
+section h4 {
+  color: white
+}
+
+#featured-tea {
+  display: flex;
+justify-content: center;
+}
+
+#locations {
+  display: flex;
+  justify-content: center;
+}
+
+.locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.location-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 80px;
+}
+
+.location-box, p {
+  padding: 10px;
+}
+
+.location-box1, .location-box2, .location-box3 {
+  background-color: black;
+  height: 300px;
+  width: 300px;
+}
+
+/* footer style */
+
+.footer-container {
+  color: seashell;
+  text-align: center;
+}
+
+.footer-container2 {
+  color: seashell;
+  text-align: left;
+  margin-left: 20px;
+}
